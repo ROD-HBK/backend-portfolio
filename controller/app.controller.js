@@ -18,7 +18,7 @@ exports.portfolioAppRoute = async (req, res) => {
 
 exports.testimonialAppRoute = async (req, res) => {
     try {
-        items = await testimonialModel.find({});
+        items = await testimonialsModel.find({});
         return res.status(200).send({
             message: "Success",
             data: items
