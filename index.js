@@ -1,13 +1,13 @@
 const express = require("express");
 const app = express();
-const mongose = require("mongose");
+const mongoose = require("mongoose");
 const {MONGO_DB_CONFIG} = require("./config/app.config");
 const cors = require('cors');
 
 
 // ================= MONGO DB CONNECTION ======================= //
 
-mongose.connect(MONGO_DB_CONFIG.DB,{
+mongoose.connect(MONGO_DB_CONFIG.DB,{
 
     useNewUrlParser: true,
     useUnifiedTopology: true
