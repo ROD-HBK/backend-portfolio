@@ -1,0 +1,8 @@
+username: efuetroderic 
+
+password: SNttztHVpKWxMrO7
+
+mongodb+srv://efuetroderic:SNttztHVpKWxMrO7@backend.cdznznt.mongodb.net/
+
+
+mongodb+srv://efuetroderic:SNttztHVpKWxMrO7@backend.cdznznt.mongodb.net/?retryWrites=true&w=majority
