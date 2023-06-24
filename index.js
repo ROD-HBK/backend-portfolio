@@ -3,6 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const {MONGO_DB_CONFIG} = require("./config/app.config");
 const cors = require('cors');
+const router = require ('./router/app.route')
 
 
 // ================= MONGO DB CONNECTION ======================= //
@@ -30,7 +31,7 @@ app.use(express.json());
 
 //======= Define Route to fetch data ===============//
 
-app.use("/api",require("./router/app.route"));
+app.use("/api",router);
 
 // Start Sever //
 

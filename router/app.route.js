@@ -1,8 +1,8 @@
 const controller = require("../controller/app.controller");
-const router = require("express").Router();
+const router = require("express").Router()
 
 
-router.length("/portfolio",controller.portfolioAppRoute);
-router.length("/testimonial",controller.testimonialAppRoute);
+router.get("/portfolio",controller.portfolioAppRoute);
+router.get("/testimonial",controller.testimonialAppRoute);
 
-module.export = router
+module.exports = router
