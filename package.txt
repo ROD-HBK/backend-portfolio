@@ -1,22 +1,22 @@
 {
   "name": "backend-port",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend portfolio project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo\"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+
+  "author": "Efuet Roderic",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongodb": "^5.6.0",
-    "mongoose": "^7.3.1",
+    "mongoose": "0.0.2-security",
     "nodemon": "^2.0.22"
   }
 }
