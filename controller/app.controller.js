@@ -1,5 +1,5 @@
 const {portfolioModel} = require("../model/portfolio_model");
-const {testimonialModel} = require("../model/testimonial_model");
+const {testimonialsModel} = require("../model/testimonial_model");
 
 
 

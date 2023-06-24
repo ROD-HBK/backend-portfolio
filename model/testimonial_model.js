@@ -10,6 +10,6 @@ const testimonialsModel = mongoose.model("testimonials", mongoose.Schema({
 
 }))
 
-module.export = {
+module.exports = {
     testimonialsModel
 }

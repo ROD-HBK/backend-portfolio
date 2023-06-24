@@ -10,6 +10,6 @@ const portfolioModel = mongoose.model("projects", mongoose.Schema({
 
 }))
 
-module.export = {
+module.exports = {
     portfolioModel
 }
